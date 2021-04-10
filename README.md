@@ -1,4 +1,4 @@
-#https://wallyjohn-dev.github.io/ProjetoAmigo/
+# https://wallyjohn-dev.github.io/ProjetoAmigo/
 
-# ProjetoAmigo
+ProjetoAmigo
 Site Portfólio
