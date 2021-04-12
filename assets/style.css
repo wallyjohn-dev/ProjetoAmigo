@@ -9,7 +9,9 @@
 :root{
     --primeira-cor: #525219;
     --segunda-cor: #0E2431;
-    --terceira-cor:#4070f4 
+    --terceira-cor:#4070f4;
+    --quarta-cor: #4181ba;
+    
 }
 /*===== fonte =====*/
 :root{
@@ -248,6 +250,9 @@ img{
 /*===== CONTATO =====*/
 /*===== FOOTER =====*/
 /*===== MEDIA QUERIES =====*/
+.bx{
+    font-size: xx-large;
+}
 
 
 
