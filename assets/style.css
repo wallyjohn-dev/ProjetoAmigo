@@ -7,8 +7,9 @@
 }
 /*===== cores =====*/
 :root{
-    --primeira-cor: #4070f4;
-    --segunda-cor: #0E2431;  
+    --primeira-cor: #525219;
+    --segunda-cor: #0E2431;
+    --terceira-cor:#4070f4 
 }
 /*===== fonte =====*/
 :root{
@@ -228,10 +229,10 @@ img{
 .about-subitile{
     margin-bottom: var(--mb-2);
 }
-.about-img{
+.about_img{
     justify-self: center;
 }
-.about-img img{
+.about_img img{
     width: 200px;
     border-radius: .5rem;
 }
