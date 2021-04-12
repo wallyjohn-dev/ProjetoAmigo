@@ -233,9 +233,16 @@ img{
 }
 .about-img img{
     width: 200px;
-    border-radius: 2rem;
+    border-radius: .5rem;
 }
 /*===== ESPECIALIDADES =====*/
+.askills-container{
+    row-gap: 2rem;
+    text-align: center;
+}
+.skills-subitile{
+    margin-bottom: var(--mb-2);
+}
 /*===== TRABALHOS =====*/
 /*===== CONTATO =====*/
 /*===== FOOTER =====*/
