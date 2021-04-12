@@ -179,30 +179,30 @@ img{
     height: calc(100vh - 3rem);
     row-gap: 1rem;
 }
-.home__data{
+.home-data{
     align-self: center;
 }
-.home__title{
+.home-title{
     font-size: var(--font-big-size);
     margin-bottom: var(--mb-5);
 }
-.home__title-color{
+.home-titleColor{
     color: var(--primeira-cor);
 }
-.home__social{
+.home-social{
     display: flex;
     flex-direction: column;
 }
-.home_-socialIcon{
+.home-socialIcon{
     width: max-content;
     margin-bottom: var(--mb-2);
     font-size: 1.5rem;
     color: var(--segunda-cor);
 }
-.home_-socialIcon:hover{
+.home-socialIcon:hover{
     color: var(--primeira-cor);
 }
-.home_-img{
+.home-img{
     position: absolute;
     right: 0;
     bottom: 0;
