@@ -51,7 +51,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    margin: var(--header-height) 0 0 20px;
+    margin: var(--header-height) 1rem;
     font-family: var(--font-body);
     font-size: var(--font-normal-size);
     color: var(--segunda-cor);
@@ -231,15 +231,15 @@ img{
 .about-subitile{
     margin-bottom: var(--mb-2);
 }
-.about_img{
+.about-img{
     justify-self: center;
 }
-.about_img img{
+.about-img img{
     width: 200px;
     border-radius: .5rem;
 }
 /*===== ESPECIALIDADES =====*/
-.askills-container{
+.skills-container{
     row-gap: 2rem;
     text-align: center;
 }
@@ -247,6 +247,21 @@ img{
     margin-bottom: var(--mb-2);
 }
 /*===== TRABALHOS =====*/
+.work{
+    text-align: center;
+}
+.work-container{
+    row-gap: 2rem;
+}
+.work-img{
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+    border-radius: 5rem;
+    overflow: hidden;
+}
+.work.img img{
+    transition: 1s;
+    cursor: pointer;
+}
 /*===== CONTATO =====*/
 /*===== FOOTER =====*/
 /*===== MEDIA QUERIES =====*/
