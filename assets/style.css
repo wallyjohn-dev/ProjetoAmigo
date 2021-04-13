@@ -7,11 +7,10 @@
 }
 /*===== cores =====*/
 :root{
-    --primeira-cor: #525219;
+    --primeira-cor: #22436d;;
     --segunda-cor: #0E2431;
     --terceira-cor:#4070f4;
-    --quarta-cor: #4181ba;
-    
+    --quarta-cor: #4181ba;  
 }
 /*===== fonte =====*/
 :root{
@@ -209,7 +208,7 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 315px;
 }
 /*===== BOTÕES =====*/
 .button{
