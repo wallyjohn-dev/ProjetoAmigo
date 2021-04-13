@@ -207,9 +207,10 @@ img{
 }
 .home-img{
     position: absolute;
-    right: 0;
+    right: 1rem;
+    top: 18rem;
     bottom: 0;
-    width: 315px;
+    width: 295px;
 }
 /*===== BOTÕES =====*/
 .button{
