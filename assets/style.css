@@ -10,7 +10,7 @@
     --primeira-cor: #22436d;;
     --segunda-cor: #0E2431;
     --terceira-cor:#4070f4;
-    --quarta-cor: #4181ba;  
+    --quarta-cor: #d6dcef61;  
 }
 /*===== fonte =====*/
 :root{
@@ -51,10 +51,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    margin: var(--header-height) 0 0 0;
+    margin: var(--header-height) 0 0 20px;
     font-family: var(--font-body);
     font-size: var(--font-normal-size);
     color: var(--segunda-cor);
+    background-color: var(--quarta-cor);
 }
 h1,h2,p{
     margin: o;
