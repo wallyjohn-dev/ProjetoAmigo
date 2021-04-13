@@ -133,7 +133,7 @@ img{
         height: 100%;
         padding: 2rem;
         background-color: var(--segunda-cor);
-        transition: 5s;
+        transition: 3s;
     }  
 }
 .nav-item{
@@ -235,9 +235,10 @@ img{
 .about-img{
     justify-self: center;
 }
-.about-img img{
+.about-img figure img{
     width: 200px;
     border-radius: .5rem;
+    margin-inline: auto;
 }
 /*===== ESPECIALIDADES =====*/
 .skills-container{
@@ -256,14 +257,20 @@ img{
 }
 .work-img{
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
-    border-radius: 5rem;
+    border-radius: .5rem;
     overflow: hidden;
+    margin-block: 1rem;
 }
 .work.img img{
     transition: 1s;
     cursor: pointer;
 }
+.work-img img:hover{
+    transform: scale(1.1);
+
+}
 /*===== CONTATO =====*/
+
 /*===== FOOTER =====*/
 /*===== MEDIA QUERIES =====*/
 .bx{
