@@ -376,7 +376,7 @@ img{
     }
     .nav-list{
         display: flex;
-        padding: 0;
+        padding: 35px 0 0 35rem;
     }
     .nav-item{
         margin-left: var(--mb-6);
@@ -386,7 +386,29 @@ img{
     }
     .nav-link{
         color: var(--segunda-cor);
+    }.home{
+        height: 100vh;
     }
+    .home-data{
+        align-self: flex-end;
+        padding: 0 1rem;
+    }
+    .home-social{
+        padding-top: 0;
+        padding-bottom: 2.5rem;
+        flex-direction: row;
+        align-self: flex-end;
+       
+    }
+    .home-socialIcon{
+        margin-bottom: 0;
+        margin-right: var(--mb-4);
+    }
+    .home-img{
+        width: 457px;
+        bottom: 15%;
+    }
+
 }
 
 
