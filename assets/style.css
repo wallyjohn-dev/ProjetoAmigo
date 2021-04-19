@@ -248,6 +248,50 @@ img{
 .skills-subitile{
     margin-bottom: var(--mb-2);
 }
+.skills-text{
+    margin-bottom: var(--mb-4);
+}
+.skills-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills-icon{
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--primeira-cor);
+}
+.skills-names{
+    display: flex;
+    align-items: center;
+}
+.skills-bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--primeira-cor);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+.skills-dout{
+    width: 95%;
+}
+.skills-psi{
+    width: 85%;
+}
+.skills-ped{
+    width: 70%;
+}
+.skills-img{
+    border-radius: .5rem;
+}
 /*===== TRABALHOS =====*/
 .work{
     text-align: center;
@@ -267,10 +311,26 @@ img{
 }
 .work-img img:hover{
     transform: scale(1.1);
-
 }
 /*===== CONTATO =====*/
-
+.contact-input{
+    width: 100%;
+    font-size: var(--font-normal-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid var(--segunda-cor);
+    outline: none;
+    margin-bottom: var(--mb-4);
+}
+.contact-button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--font-normal-size);
+    cursor: pointer;
+    margin-left: auto;
+}
 /*===== FOOTER =====*/
 /*===== MEDIA QUERIES =====*/
 .bx{
